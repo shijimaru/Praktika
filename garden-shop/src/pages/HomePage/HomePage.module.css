@@ -1,0 +1,197 @@
+.hero {
+    position: relative;
+    height: 800px;
+    background-image: url(../../assets/hero.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    /* top: 0; right: 0; bottom: 0; left: 0 */
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.content {
+    display: flex;
+    position: relative;
+    z-index: 2;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    font-family: 'Montserrat';
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 40px;
+}
+
+.text {
+    font-weight: 700px;
+    font-size: 96px;
+    text-align: left;
+}
+
+.btn {
+    display: flex;
+    font-weight: 600px;
+    font-size: 20px;
+    background-color: #339933;
+    text-decoration: none;
+    color: white;
+    width: 218px;
+    height: 58px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.categories {
+    padding: 40px;
+    font-family: 'Montserrat';
+}
+
+.title {
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.line {
+    margin-left: 60px;
+    height: 1px;
+    width: 1250px;
+    background-color: #DDDDDD;
+}
+
+.link {
+    width: 142px;
+    height: 36px;
+    border-radius: 5px;
+    border: 1px solid #DDDDDD;
+    text-decoration: none;
+    color: #8B8B8B;
+    padding: 8px 16px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.cardsContainer {
+    padding-top: 20px;
+    display: flex;
+    gap: 62px;
+    justify-content: space-evenly
+}
+
+.formcontainer {
+    background: linear-gradient(to right, #339933, #0B710B);
+    height: 486px;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.formtitle {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 64px;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.containercontentform {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+
+.formimage {
+    width: 707px;
+}
+
+.forminput {
+    width: 600px;
+    padding: 10px;
+    border-radius: 8px;
+    background: none;
+    border: 1px solid white;
+    color: white;
+}
+
+.forminput::placeholder {
+    color: white;
+}
+
+.submitBtn {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.submitBtn:hover {
+    background-color: black;
+    color: white;
+}
+
+.successBtn {
+    background-color: transparent;
+    color: #00c853;
+    border: 2px solid #00c853;
+}
+
+.successBtn:hover {
+    background-color: transparent;
+    color: #00c853;
+}
+
+.formbox {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.discountProducts {
+    padding: 40px;
+    font-family: 'Montserrat';
+}
+
+.containerdis {
+    display: flex;
+    align-items: center;
+}
+
+.linedis {
+    margin-left: 60px;
+    height: 1px;
+    width: 1480px;
+    background-color: #DDDDDD;
+}
+
+.linkdis {
+    width: 100px;
+    height: 36px;
+    border-radius: 5px;
+    border: 1px solid #DDDDDD;
+    text-decoration: none;
+    color: #8B8B8B;
+    padding: 8px 16px;
+}
+
+.productsGrid {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+}

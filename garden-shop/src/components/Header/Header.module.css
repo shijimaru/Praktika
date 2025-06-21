@@ -1,0 +1,57 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 40px;
+  font-family: 'Montserrat';
+  border-bottom: 1px solid #DDDDDD;
+}
+
+.logo {
+  width: 70px;
+}
+
+.nav {
+  display: flex;
+  gap: 30px;
+}
+
+.link {
+  text-Decoration: none;
+  color: #222;
+  font-Weight: 500px;
+  font-Size: 20px
+}
+
+.link:hover {
+  color: #339933
+}
+
+.cart {
+  width: 48px;
+}
+
+.cartContainer {
+  position: relative;
+}
+
+.cartLink {
+  display: flex;
+  align-items: center;
+}
+
+.cartBadge {
+  position: absolute;
+  top: -2px;
+  right: 30px;
+  background-color: #339933;
+  color: white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: bold;
+}

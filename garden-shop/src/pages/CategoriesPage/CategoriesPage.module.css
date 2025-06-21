@@ -1,0 +1,21 @@
+.categories {
+    padding: 40px;
+    font-family: 'Montserrat';
+}
+
+.title {
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.cardsContainer {
+    padding-top: 20px;
+    display: flex;
+    gap: 62px;
+    justify-content: space-evenly
+}

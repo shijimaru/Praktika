@@ -1,0 +1,20 @@
+.card{
+    width: 316px;
+    height: 392px;
+}
+
+.image{
+    width: 316px;
+    height: 350px;
+    border-radius: 5px;
+}
+
+.name{
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 500px;
+    text-decoration: none;
+    color: black;
+    margin-left: auto;
+    text-align: center;
+}
