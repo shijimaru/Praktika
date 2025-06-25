@@ -9,12 +9,10 @@ import { NotFoundPage } from './pages/NotFoundPage';
 import { CartPage } from './pages/CartPage';
 import { Header } from './components/Header';
 import { Footer } from './components/Footer';
-import { CartProvider } from './store/CartContext';
 
 function App() {
   return (
     <BrowserRouter>
-      <CartProvider>
         <Header />
         <Routes>
           <Route path="/" element={<HomePage />} />
@@ -27,7 +25,6 @@ function App() {
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
         <Footer />
-      </CartProvider>
     </BrowserRouter>
   );
 }
